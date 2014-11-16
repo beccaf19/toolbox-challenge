@@ -1,0 +1,53 @@
+body {
+	margin: 50px;
+	background-color:#828E99;
+}
+
+#game-board img {
+	width: 20%;
+	height: 20%;
+	margin: .5%;
+	min-height: 115px;
+	min-width: 115px; 
+}
+
+#game-board {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	min-height: 490px;
+	min-width: 490px;
+}
+
+#new-game {
+	background-color: rgba(0,255, 242, .4);
+	border-color: rgba(0, 255, 242, .4);
+	margin-top: 1em;
+	margin-bottom:1em;
+	border-color: transparent;
+}
+
+#game-stat {
+	color: #ffffff;
+	border-style: solid;
+	border-color:transparent;
+	border: 1px;
+	border-radius: 5px;
+	background-color: rgba(0,255,242, .4);
+	width: 550px;
+	padding-top: 1em;
+ 	padding-bottom: 1em;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+ #matches, #misses, #matchesLeft, #elapsed-seconds{
+ 	text-align: center;
+ 	display:inline;
+	padding: 1em;
+}
+
+
